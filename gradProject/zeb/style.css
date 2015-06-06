@@ -1,0 +1,61 @@
+@import url(http://fonts.googleapis.com/css?family=Source+Sans+Pro:400,600,700);
+
+body{
+ /* background-color: #A0D465;
+  font-family: "Source Sans Pro";
+  padding-top: 60px;*/
+
+
+  text-align:center;
+ background:url("http://f.cl.ly/items/0m1s041Z2e0E1J2v2I3M/Galaxy_dark2.jpg") no-repeat center center fixed;
+  @include background-size(cover);
+}
+
+
+#form{
+ background-color:#F5F7FA;
+  width: 50%;
+  margin:0 auto;
+  padding: 10px 20px;
+  text-align:center;
+  font-size:.9em;
+  box-shadow:15px 15px #8CC152;
+}
+
+
+
+
+button {
+  position: relative;
+  margin: 1em;
+  padding: 0.5em 1em;
+  font-size: 2em;
+  text-transform: uppercase;
+  border-radius: .3em;
+  border: 0.1em solid black;
+  background: #222630;
+
+  box-shadow: inset 0 .1em rgba(255,255,255,0.1), 0 .1em .1em black, 0 0.2em rgba(255,255,255,0.1), 0 0 0 .2em rgba(0,0,0,0.1);
+
+  color: #f30;
+  text-shadow: 0 0.1em rgba(255,255,255,0.1), 0 -0.1em rgba(0,0,0,0.2);
+}
+
+button:hover {
+  text-shadow: 0 0 .3em #f30;
+}
+
+button:active {
+  text-shadow: 0 0 .3em #f30;
+  top: 0.1em;
+  box-shadow: inset 0 .1em rgba(255,255,255,0.1), 0 0.1em rgba(255,255,255,0.1), 0 -0.1em 0 .2em rgba(0,0,0,0.1);
+}
+
+button.medium {
+  font-size: 1em;
+}
+
+button.small {
+  font-size: 0.7em; /* .7em is minimum*/
+}
+
