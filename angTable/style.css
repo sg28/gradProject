@@ -1,0 +1,50 @@
+ body {
+   background-color: transparent;
+ }
+ 
+ td {
+   text-align: center;
+ }
+ 
+ table, th, td {
+   border: 1px solid black;
+ }
+ 
+ table {
+   border-collapse: collapse;
+   margin: 20px;
+   padding: 20px;
+   float: left;
+ }
+ 
+ th {
+   background-color: rgb(35, 111, 139);
+   color: white;
+ }
+ 
+ .search {
+   margin: 20px;
+ }
+ 
+ .searchlabel {
+   float: left;
+   margin-top: 4px;
+   margin-right: 10px;
+ }
+ 
+ #search {
+   margin-left: 10px;
+   width: 290px;
+ }
+ 
+ .profiledisplaycontainer {
+   margin-left: 10px;
+   margin-top: 20px;
+   float: left;
+   width: 350px;
+ }
+ 
+ .profile {
+   text-align: center;
+   position: fixed;
+ }
